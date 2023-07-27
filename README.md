@@ -1,5 +1,5 @@
-# ginseq
-[ICML 2023] Protecting Language Generation Models via Invisible Watermarking
+# Ginsew
+[ICML 2023] [Protecting Language Generation Models via Invisible Watermarking](https://arxiv.org/abs/2302.03162)
 
 GINSEW, is a novel method to protect text generation models from being stolen through distillation. The key idea of this method is to inject secret signals into the probability vector of the decoding steps for each target token. We can then detect the secret message by probing a suspect model to tell if it is distilled from the protected one. 
 
