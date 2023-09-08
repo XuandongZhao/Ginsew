@@ -3,7 +3,7 @@
 
 GINSEW, is a novel method to protect text generation models from being stolen through distillation. The key idea of this method is to inject secret signals into the probability vector of the decoding steps for each target token. We can then detect the secret message by probing a suspect model to tell if it is distilled from the protected one. 
 
-We are currently working on apply the watermarking method to Transformer-based language generation models, which directly works on `LogitsWarper`. We will release the code soon.
+The code applies the watermarking method to Transformer-based language generation models, which directly works on `LogitsWarper`.
 
 Overview of the process of watermarking and the process of watermark detection:
 
